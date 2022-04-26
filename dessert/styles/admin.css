@@ -1,0 +1,83 @@
+.btn{
+    padding: 10px 50px;
+    margin: 0% 1%;
+    border: 1px solid #9F3939;
+    border-radius: 30px;
+    font-family: Gilroy Regular;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: #9F3939;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    margin-top: 1%;
+    font-family: Gilroy Regular;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+form{
+    margin-left: 5%;
+}
+
+input{
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 0px;
+    border-bottom: solid 1px black;
+    margin-bottom: 1%;
+    font-family: Gilroy Regular;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+select{
+    padding: 10px;
+    border: 1px solid #9F3939;
+    border-radius: 30px;
+    font-family: Gilroy Regular;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.number{
+    width: 60px;
+}
+
+.composition{
+    width: 500px;
+}
+
+.output{
+    margin-left: 35%;
+}
+
+.outputt{
+    margin-left: 10%;
+}
+
+.orders{
+    margin-left: 23%;
+}
+

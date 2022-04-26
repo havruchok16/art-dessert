@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+}
+
+nav div{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none; 
+}
+
+.auth img{
+    margin: 0 10px;
+}
+
+p{
+    font-family: Gilroy Regular;
+    font-size: 18px;
+    color: black;
+}

@@ -1,0 +1,83 @@
+.section-name{
+    font-family: Kudryashev Display Regular;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    margin: 5% 0%;
+}
+
+.btn{
+    width: min-content;
+    padding: 10px 50px;
+    margin: 3%;
+    border: 1px solid #9F3939;
+    border-radius: 30px;
+    font-family: Gilroy Regular;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    cursor: pointer;
+    background-color: #9f39396e;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: #9F3939;
+    color: white;
+}
+
+/* base end*/
+
+.registration, .authorization, .order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 500px;
+    border: solid 1px #9F3939;
+    padding: 2%;
+    margin: 5% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    background: transparent;
+    border: 0px;
+    border-bottom: solid 1px black;
+    margin-bottom: 1%;
+    font-family: Gilroy Regular;
+    font-size: 18px;
+    color: black;
+}
+
+.quest{
+    font-family: Gilroy Regular;
+    font-size: 16px;
+    margin: 1%;
+}
+
+.auth{
+    font-family: Gilroy Regular;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    margin: 0%;
+    transition: 0.5s;
+}
+
+.auth:hover{
+    color: #9F3939;
+    transition: 0.5s;
+}
+
+

@@ -1,0 +1,214 @@
+.products{
+    margin: 5% 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+select, input{
+    padding: 10px;
+    border: 1px solid #9F3939;
+    border-radius: 30px;
+    font-family: Gilroy Regular;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+input{
+    text-transform: none;
+}
+
+.category, .price{
+    width: 260px;
+}
+
+.search{
+    width: 400px;
+}
+
+.search-btn{
+    cursor: pointer;
+    padding: 10px;
+    background-color: #9f39396e;
+    transition: 0.5s;
+}
+
+.search-btn:hover{
+    cursor: pointer;
+    background-color: #9F3939;
+    transition: 0.5s;
+}
+
+.feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback-item{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    margin-bottom: 0;
+    width: 800px;
+}
+
+.username{
+    font-family: Gilroy Regular;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #9F3939;
+    margin: 1% 0%;
+}
+
+.comm{
+    font-family: Gilroy Regular;
+    font-size: 18px;
+    color: black;
+    margin: 1% 0%;
+}
+
+.date{
+    font-family: Gilroy Regular;
+    font-size: 18px;
+    color: black;
+    margin: 1% 0%;
+}
+
+.cur-feedback{
+    border: 1px solid #9F3939;
+    padding: 10px;
+    width: 800px;
+    margin: 3% 0%;
+}
+
+.comment{
+    font-family: Gilroy Regular;
+    font-size: 18px;
+    color: black;
+    margin: 1% 0%;
+    width: 780px;
+    height: 50px;
+    padding: 1px;
+    border: 0px solid #9F3939;
+    border-radius: 0px;
+}
+
+.comment-btn{
+    padding: 10px 50px;
+    margin-top: 0px;
+    margin-left: 37%;
+    border: 1px solid #9F3939;
+    border-radius: 30px;
+    font-family: Gilroy Regular;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    cursor: pointer;
+    background-color: #9f39396e;
+    transition: 0.5s;
+}
+
+.comment-btn:hover{
+    background-color: #9F3939;
+    color: white;
+}
+
+.text{
+    padding: 10px;
+    border-bottom: 1px solid #000000;
+    border-radius: 0px;
+    font-family: Gilroy Regular;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    background-color: transparent;
+    transition: 0.5s;
+    width: 500px;
+}
+
+.output-desserts{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 4% 10%;
+}
+
+.dessert-item{
+    width: 276px;
+    margin: 2% 5%;
+    margin-bottom: 20px;
+}
+
+.dessert-name{
+    font-family: Gilroy Regular;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.dessert-composition{
+    font-family: Gilroy Regular;
+    font-size: 14px;
+    text-transform: lowercase;
+    height: 35px;
+}
+
+.dessert-btn{
+    padding: 10px 50px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border: 1px solid #9F3939;
+    border-radius: 30px;
+    font-family: Gilroy Regular;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    cursor: pointer;
+    background-color: #9f39396e;
+    transition: 0.5s;
+}
+
+.dessert-btn:hover{
+    background-color: #9F3939;
+    color: white;
+}
+
+/* .error{
+    font-family: Gilroy Regular;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 35%;
+}
+
+.basket{
+    min-height: 600px;
+    margin-top: 30px;
+}
+
+.basket-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.basket-btn{
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    border: 1px solid #9F3939;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.basket-btn:hover{
+    cursor: pointer;
+    background-color: #9F3939;
+    transition: 0.5s;
+} */
